@@ -8,6 +8,9 @@ Retrieves current temperature, humidity, pressure, and weather description
 Uses OpenWeatherMap REST API
 Parses and displays data in a user-friendly format
 Basic error handling for invalid city names
+
+
+
 🚀 Getting Started
 
 Prerequisites
@@ -32,6 +35,8 @@ Windows (PowerShell):
 $env:API_KEY="your_api_key_here"
 Run the script:
 python weather.py
+
+
 📷 Example Output
 
 Enter city name : New York
@@ -39,10 +44,14 @@ Temperature (in kelvin unit) = 293.15
 Atmospheric pressure (in hPa unit) = 1013
 Humidity (in percentage) = 56
 Description = clear sky
+
+
 ⚠️ Notes
 
 API returns temperature in Kelvin by default. You can modify the script to convert it to Celsius or Fahrenheit if desired.
 Error handling is included for invalid city names.
+
+
 🛠️ Possible Improvements
 
 Convert temperature units to Celsius/Fahrenheit
